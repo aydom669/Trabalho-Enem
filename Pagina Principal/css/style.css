@@ -148,6 +148,25 @@ main .home {
     color: #000;
     font-size: 15px; }
 
+.Sobre .titulo {
+  text-align: center;
+  padding: 3rem 0; }
+.Sobre .sobre__conteiner {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  gap: 2rem; }
+  .Sobre .sobre__conteiner figure {
+    flex: 1 1 42rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem; }
+    .Sobre .sobre__conteiner figure img {
+      width: 100%;
+      box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1); }
+  .Sobre .sobre__conteiner .content {
+    flex: 1 1 42rem;
+    line-height: 2; }
+
 @media (max-width: 707px) {
   .header .header__logo {
     font-size: 2rem;
@@ -186,7 +205,12 @@ main .home {
 
   .swiper-button-next::after,
   .swiper-button-prev::after {
-    display: none; } }
+    display: none; }
+
+  .Sobre .sobre__conteiner {
+    flex-direction: column; }
+    .Sobre .sobre__conteiner figure {
+      flex: none; } }
 @media (max-width: 442px) {
   .header .nav a {
     font-size: 13px;

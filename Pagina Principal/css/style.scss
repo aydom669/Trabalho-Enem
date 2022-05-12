@@ -235,7 +235,41 @@ main{
             }
         }
     }
+}
 
+.Sobre{
+
+    .titulo{
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    .sobre__conteiner{
+
+        background: #eee;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+       
+    
+        figure{
+
+            flex: 1 1 42rem;
+            padding-right: 5rem;
+            padding-bottom: 5rem;
+    
+            img{
+                width: 100%;
+                box-shadow: 4rem 4rem 0 rgba(0, 0, 0, .1);
+            }
+        }
+    
+        .content{
+            flex: 1 1 42rem;
+            line-height: 2;
+            
+        }
+    }
 }
 
 
@@ -298,6 +332,17 @@ main{
     .swiper-button-next::after,
     .swiper-button-prev::after {
     display: none;
+}
+
+.Sobre{
+    .sobre__conteiner{
+        flex-direction: column;
+        
+        figure{
+            flex: none;
+        }
+
+    }
 }
 }
 
