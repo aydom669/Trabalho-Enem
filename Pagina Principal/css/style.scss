@@ -3,7 +3,7 @@
 // Reset
 
 * {
-    font-family: 'Poppins'sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -267,6 +267,7 @@ main{
         .content{
             flex: 1 1 42rem;
             line-height: 2;
+            font-size: 15px;
             
         }
     }
@@ -339,6 +340,10 @@ main{
         flex-direction: column;
         
         figure{
+            flex: none;
+        }
+
+        .content{
             flex: none;
         }
 

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
 * {
-  font-family: "Poppins" sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -165,7 +165,8 @@ main .home {
       box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1); }
   .Sobre .sobre__conteiner .content {
     flex: 1 1 42rem;
-    line-height: 2; }
+    line-height: 2;
+    font-size: 15px; }
 
 @media (max-width: 707px) {
   .header .header__logo {
@@ -210,6 +211,8 @@ main .home {
   .Sobre .sobre__conteiner {
     flex-direction: column; }
     .Sobre .sobre__conteiner figure {
+      flex: none; }
+    .Sobre .sobre__conteiner .content {
       flex: none; } }
 @media (max-width: 442px) {
   .header .nav a {
