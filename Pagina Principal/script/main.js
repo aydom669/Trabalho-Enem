@@ -32,6 +32,8 @@ window.onscroll = (e) => {
 
 };
 
+// slider Home
+
 var swiper = new Swiper(".home__slider", {
     loop:true,
     grabCursor: true,
@@ -40,3 +42,22 @@ var swiper = new Swiper(".home__slider", {
       prevEl: ".swiper-button-prev",
     },
 });
+
+// slider Comentarios
+
+var swiper = new Swiper(".review-slider", {
+    loop:true,
+    grabCursor: true,
+    spaceBetween: 18,
+    breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        640: {
+            slidesPerView: 2,
+          },
+        768: {
+          slidesPerView: 3,
+        },
+      },
+  });

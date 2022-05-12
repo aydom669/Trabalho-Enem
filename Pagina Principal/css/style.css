@@ -10,13 +10,13 @@
   text-transform: capitalize;
   transition: 0.2s linear; }
 
+section {
+  padding: 3rem 2rem; }
+
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem; }
-
-body {
-  background: #1f1f8c; }
 
 .header {
   padding: 2rem;
@@ -61,8 +61,6 @@ body {
     margin-right: 1.2rem; }
   .header #menu-btn {
     display: none; }
-  .header.active {
-    background: #fff; }
 
 main .home {
   padding: 0; }
@@ -111,6 +109,44 @@ main .home {
 .swiper-button-prev::after {
   font-size: 3rem;
   color: #000; }
+
+.comentarios .titulo {
+  text-align: center;
+  padding: 2rem 0; }
+.comentarios .slide .text {
+  position: relative;
+  background: #eee;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+  color: #10221b;
+  line-height: 2;
+  z-index: 0;
+  padding: 1.8rem; }
+  .comentarios .slide .text:before {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #eee;
+    bottom: -1.2rem;
+    transform: rotate(45deg);
+    left: 0.7rem; }
+.comentarios .slide .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem; }
+  .comentarios .slide .user figure {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    background: #000; }
+  .comentarios .slide .user .info h3 {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 2px; }
+  .comentarios .slide .user .info span {
+    color: #000;
+    font-size: 15px; }
 
 @media (max-width: 707px) {
   .header .header__logo {
