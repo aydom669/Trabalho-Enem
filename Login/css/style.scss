@@ -21,10 +21,26 @@ main{
     form{
         text-align: center;
         width: 25rem;
-        height: 24rem;
+        height: 25rem;
         padding: 2rem;
         background: #fff;
         border-radius: .5rem;
+        position: relative;
+
+        span{
+            color: #26e9a8;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1.5rem;
+            padding: 1rem;
+            font-weight: bold;
+
+            &:hover {
+                color: #22c58f;
+            }
+
+        }
 
         &:hover{
             transform: translateY(-30px);
@@ -34,8 +50,10 @@ main{
         }
 
         h2{
-            margin-bottom: 3rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
             color: #26e9a8;
+
         }
 
         input{
@@ -55,6 +73,7 @@ main{
             border-radius: 1rem;
             margin-top: 1rem;
             cursor: pointer;
+            color:  #1c2b26;
 
             &:hover{
                 background: #26e9a8;
