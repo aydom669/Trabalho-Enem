@@ -14,32 +14,32 @@ main {
   justify-content: center;
   align-items: center;
   background: #22c58f; }
+  main span {
+    color: #f5f6f6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.7rem;
+    padding: 1rem;
+    font-weight: bold; }
+    main span:hover {
+      color: #b3d6ca;
+      transition: 0.5s linear;
+      cursor: pointer; }
   main form {
     text-align: center;
     width: 25rem;
     height: 25rem;
     padding: 2rem;
     background: #fff;
-    border-radius: .5rem;
-    position: relative; }
-    main form span {
-      color: #26e9a8;
-      position: absolute;
-      left: 0;
-      top: 0;
-      font-size: 1.5rem;
-      padding: 1rem;
-      font-weight: bold; }
-      main form span:hover {
-        color: #22c58f;
-        transition: 0.5s linear; }
+    border-radius: .5rem; }
     main form:hover {
       transform: translateY(-30px);
       box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
       transition: 0.6s linear;
       cursor: pointer; }
     main form h2 {
-      margin-top: 3rem;
+      margin-top: 2rem;
       margin-bottom: 2rem;
       color: #26e9a8; }
     main form input {

@@ -18,6 +18,23 @@ main{
     align-items: center;
     background: #22c58f;
 
+    span{
+        color: #f5f6f6;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.7rem;
+        padding: 1rem;
+        font-weight: bold;
+
+        &:hover {
+            color: #b3d6ca;
+            transition: 0.5s linear;
+            cursor: pointer;
+        }
+
+    }
+
     form{
         text-align: center;
         width: 25rem;
@@ -25,22 +42,7 @@ main{
         padding: 2rem;
         background: #fff;
         border-radius: .5rem;
-        position: relative;
 
-        span{
-            color: #26e9a8;
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 1.5rem;
-            padding: 1rem;
-            font-weight: bold;
-
-            &:hover {
-                color: #22c58f;
-                transition: 0.5s linear;
-            }
-        }
 
         &:hover{
             transform: translateY(-30px);
