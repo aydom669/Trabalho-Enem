@@ -17,10 +17,22 @@ main {
   main form {
     text-align: center;
     width: 25rem;
-    height: 33rem;
+    height: 35rem;
     padding: 2rem;
     background: #fff;
-    border-radius: .5rem; }
+    border-radius: .5rem;
+    position: relative; }
+    main form span {
+      color: #26e9a8;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 1.5rem;
+      padding: 1rem;
+      font-weight: bold; }
+      main form span:hover {
+        color: #22c58f;
+        transition: 0.5s linear; }
     main form:hover {
       transform: translateY(-30px);
       box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
@@ -28,7 +40,8 @@ main {
       cursor: pointer; }
     main form h2 {
       margin-bottom: 1.8rem;
-      color: #22c58f; }
+      color: #22c58f;
+      margin-top: 2rem; }
     main form input {
       margin-bottom: 1rem;
       width: 100%;

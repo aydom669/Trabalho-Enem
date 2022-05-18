@@ -31,7 +31,8 @@ main {
       padding: 1rem;
       font-weight: bold; }
       main form span:hover {
-        color: #22c58f; }
+        color: #22c58f;
+        transition: 0.5s linear; }
     main form:hover {
       transform: translateY(-30px);
       box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
